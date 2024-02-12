@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(315deg, #c2118d 0%, #ff503c 80%);
+}
+
+table {
+  width: 60vw;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 0.1mm solid white;
+  color: #ddd;
+}
+
+td button {
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  border: 0.4mm solid rgb(50, 41, 41);
+  border-radius: 5px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+td button:hover {
+  background-color: #333;
+}
+
+.selectDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#select {
+  padding: 5px;
+  width: 80%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.checkLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.secondLabel {
+  margin-right: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.secondLabel {
+  margin-top: 12px;
+}
+
+.showForbidden {
+  margin-top: 7px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.searchInput {
+  padding: 5px;
+  width: 300px;
+  font-size: 1rem;
+}
+
+.fa-solid {
+  padding: 20px;
+  margin-left: 40px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=style.css.map */

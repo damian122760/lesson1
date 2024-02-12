@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Panel administracyjny bloga</title>
+		<script
+			src="https://kit.fontawesome.com/d5ce8a3b75.js"
+			crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<table>
+				<thead>
+					<tr>
+						<td></td>
+						<td>Name</td>
+						<td>Email</td>
+						<td>Body</td>
+						<td>Action</td>
+					</tr>
+				</thead>
+				<div class="checkLabel">
+					<label class="secondLabel" for="forbidden">Wyróżnij nieprzyzwoite</label>
+					<input
+						type="checkbox"
+						class="showForbidden"
+						name="forbidden"
+						id="forbidden" />
+				</div>
+				<div class="selectDiv">
+					<select name="select" id="select">
+						<option value="" disabled selected>Home</option>
+					</select>
+				</div>
+				<div class="search">
+					<input type="text" class="searchInput" />
+					<i class="fa-solid fa-arrow-left"></i>
+					<i class="fa-solid fa-arrow-right"></i>
+				</div>
+				<tbody></tbody>
+			</table>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
